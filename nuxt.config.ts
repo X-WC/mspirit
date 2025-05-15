@@ -17,10 +17,14 @@ export default defineNuxtConfig({
                 {name: 'apple-mobile-web-app-status-bar-style', content: 'black'}
             ],
         },
+        buildAssetsDir: 'nuxt_assets',
     },
     nitro: {
         output: {
             publicDir: path.join(__dirname, 'docs')
         }
-    }
+    },
+    experimental: {
+        payloadExtraction: false
+    },
 })
