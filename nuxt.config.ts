@@ -21,7 +21,7 @@ export default defineNuxtConfig({
     },
     nitro: {
         output: {
-            publicDir: path.join(__dirname, 'mspirit')
+            publicDir: path.join(__dirname, 'docs')
         }
     }
 })
