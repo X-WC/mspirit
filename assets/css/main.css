@@ -1,0 +1,26 @@
+html {
+    font-family: PingFang SC, sans-serif;
+}
+
+/* 对齐多行文本 */
+.align-multiple-lines-of-text {
+    white-space: pre-wrap;
+    text-align: justify;
+    text-justify: inter-ideograph;
+}
+
+.button {
+    width: 144px;
+    height: 48px;
+    border-radius: 8px 8px 8px 8px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+    line-height: 20px;
+    text-align: center;
+}
+
+.prod-container {
+    background: linear-gradient( 180deg, #FFFFFF 0%, #9FE7D4 57%, #7BDEFC 100%);
+    padding-top: 30px;
+}
