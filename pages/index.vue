@@ -108,14 +108,13 @@
 
 <style scoped>
 .text-font {
-  font-family: Source Han Sans CN;
+  font-family: Source Han Sans SC;
 }
 
 .scroll-text {
   font-weight: 800;
-  color: transparent;
   text-align: left;
-  -webkit-text-stroke: 2px #FFF;
+  color: white;
 }
 
 :deep(.marquee-item) {
