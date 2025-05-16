@@ -55,12 +55,12 @@ const closeMobileMenu = () => {
 
 <template>
   <header>
-    <div class="flex justify-between items-center h-16 xl:px-32 lg:px-24 md:px-16 sm:px-5 py-3.5">
+    <div class="flex justify-between items-center h-16 xl:px-32 xl:px-24 md:px-16 sm:px-5 py-3.5">
       <NuxtLink class="px-2" to="/">
         <img class="w-36" src="/public/images/nav-logo.svg" alt="logo">
       </NuxtLink>
       <!-- 桌面端导航 -->
-      <div class="hidden md:flex gap-4 items-center">
+      <div class="hidden xl:flex gap-4 items-center">
         <div
           v-for="navItem in navItems"
           :key="navItem.path"
@@ -99,7 +99,7 @@ const closeMobileMenu = () => {
       </div>
       <!-- 移动端汉堡菜单按钮 -->
       <button
-        class="md:hidden p-2"
+        class="xl:hidden p-2"
         @click="toggleMobileMenu"
       >
         <div class="w-6 h-5 relative flex flex-col justify-between">
@@ -113,7 +113,7 @@ const closeMobileMenu = () => {
     <!-- 移动端导航菜单 -->
     <div
       v-show="isMobileMenuOpen"
-      class="fixed inset-0 bg-white z-50 md:hidden"
+      class="fixed inset-0 bg-white z-50 xl:hidden"
     >
       <div class="p-2">
         <div class="flex justify-between items-center mb-6">

@@ -15,7 +15,7 @@ const props = defineProps({
 
 <template>
   <Swiper
-      class="w-full md:max-w-[540px]"
+      class="w-full xl:max-w-[540px]"
       :navigation="true"
       :modules="[Pagination, Navigation]"
       :pagination="props.items.length > 1 ? { el: '.swiper-pagination', clickable: true } : false"
@@ -31,7 +31,7 @@ const props = defineProps({
       }"
   >
     <SwiperSlide v-for="(item, index) in props.items" :key="index" class="flex items-center justify-center">
-      <img :src="item" alt="" class="w-full h-auto object-contain max-h-[350px] md:max-h-[432px] md:max-w-[454px]">
+      <img :src="item" alt="" class="w-full h-auto object-contain max-h-[350px] xl:max-h-[432px] xl:max-w-[454px]">
     </SwiperSlide>
   </Swiper>
   <!-- Pagination -->

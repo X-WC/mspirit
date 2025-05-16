@@ -11,23 +11,23 @@ const items = [
 </script>
 
 <template>
-  <div class="prod-container mt-10 px-4 md:px-20 flex flex-col md:flex-row md:gap-6">
+  <div class="prod-container mt-10 px-4 xl:px-20 flex flex-col xl:flex-row xl:gap-6">
     <section class="flex-1/2">
-      <h1 class="font-semibold text-3xl md:text-5xl m-0">MSIPIRIT AIO</h1>
-      <h2 class="font-semibold text-2xl md:text-4xl m-0">AIO 一体机</h2>
-      <p class="mt-4 md:mt-8 mb-4 md:mb-8 align-multiple-lines-of-text">MSPIRIT MSA25镜灵一体机是一款采用面部识别数据和AI算法的健康管理设备。旨在通过简单、无接触、无创的方式帮助用户监控健康状况。为个人用户、企业和健康机构提供健康检测与管理服务。镜灵通过深度学习和大数据分析，为用户提供健康评分、趋势分析和建议，帮助他们实现未来健康的管理。
+      <h1 class="font-semibold text-3xl xl:text-5xl m-0">MSIPIRIT AIO</h1>
+      <h2 class="font-semibold text-2xl xl:text-4xl m-0">AIO 一体机</h2>
+      <p class="mt-4 xl:mt-8 mb-4 xl:mb-8 align-multiple-lines-of-text">MSPIRIT MSA25镜灵一体机是一款采用面部识别数据和AI算法的健康管理设备。旨在通过简单、无接触、无创的方式帮助用户监控健康状况。为个人用户、企业和健康机构提供健康检测与管理服务。镜灵通过深度学习和大数据分析，为用户提供健康评分、趋势分析和建议，帮助他们实现未来健康的管理。
       </p>
-      <div class="h-[300px] md:h-[424px] pb-9 overflow-scroll hide-scrollbar">
+      <div class="h-[300px] xl:h-[424px] pb-9 overflow-scroll hide-scrollbar">
         <div class="bg-white rounded-xl px-3 py-3">
-          <div class="text-[#2B9B81] font-semibold text-lg md:text-xl mb-2">
+          <div class="text-[#2B9B81] font-semibold text-lg xl:text-xl mb-2">
             超清镜面显示，还原真实动作细节
           </div>
           <div>
-            <div class="text-[#323232] text-sm md:text-base"><span class="text-black font-semibold">镜面屏技术：</span>搭载MV215FHB-N30显示面板，亮度高达1000cd/m²(镜面屏版本)，强光环境下画面依旧清晰。
+            <div class="text-[#323232] text-sm xl:text-base"><span class="text-black font-semibold">镜面屏技术：</span>搭载MV215FHB-N30显示面板，亮度高达1000cd/m²(镜面屏版本)，强光环境下画面依旧清晰。
             </div>
-            <div class="text-[#323232] text-sm md:text-base"><span class="text-black font-semibold">4K级画质：</span>1920x1080全高清分辨率，支持16:9显示比例，动态课程无拖影(响应时间14ms)。
+            <div class="text-[#323232] text-sm xl:text-base"><span class="text-black font-semibold">4K级画质：</span>1920x1080全高清分辨率，支持16:9显示比例，动态课程无拖影(响应时间14ms)。
             </div>
-            <div class="text-[#323232] text-sm md:text-base"><span class="text-black font-semibold">广视角与防眩光：</span>178°可视角度，搭配Haze
+            <div class="text-[#323232] text-sm xl:text-base"><span class="text-black font-semibold">广视角与防眩光：</span>178°可视角度，搭配Haze
               25%防眩光涂层与3H硬度表面，触控流畅且耐刮擦。
             </div>
           </div>

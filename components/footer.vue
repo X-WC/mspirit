@@ -1,7 +1,7 @@
 <template>
   <footer class="bg-[#14293B] text-white">
     <div class="container mx-auto px-4 py-7">
-      <div class="grid grid-cols-1 md:grid-cols-4 gap-8 pb-8 border-b border-b-[#E0D9D91A]">
+      <div class="grid grid-cols-1 xl:grid-cols-4 gap-8 pb-8 border-b border-b-[#E0D9D91A]">
         <!-- logo -->
         <div class="w-32">
           <img src="/images/footer-logo.png" alt="logo">

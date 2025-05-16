@@ -40,35 +40,35 @@ const featureList = [{
   <div>
     <!--  产品介绍  -->
     <section class="relative z-10">
-      <div class="flex flex-col md:flex-row justify-around px-4 md:px-32 mt-9 gap-9">
+      <div class="flex flex-col xl:flex-row justify-around px-4 xl:px-32 mt-9 gap-9">
         <div class="flex-1/2">
-          <h1 class="font-semibold text-3xl md:text-5xl m-0">PRODUCT INTRODUCTION</h1>
-          <h2 class="font-semibold text-2xl md:text-4xl m-0">产品介绍</h2>
-          <p class="mt-8 md:mt-16 h-auto md:h-44 align-multiple-lines-of-text">
+          <h1 class="font-semibold text-3xl xl:text-5xl m-0">PRODUCT INTRODUCTION</h1>
+          <h2 class="font-semibold text-2xl xl:text-4xl m-0">产品介绍</h2>
+          <p class="mt-8 xl:mt-16 h-auto md:min-h-[185px] md:overflow-hidden xl:h-44 align-multiple-lines-of-text">
             Mspirit（中文产品名：镜灵）是一款采用面部识别技术和AI算法"运用NuraLogix
             技术"的健康管理产品，旨在通过简单、无接触、无创的方式帮助用户监控健康状况。仅需30秒，"镜灵"利用透皮光学成像技术检测面部和监测血流。AI
             算法结合这些数据提供可多大100多个健康参数。"镜灵"在提供包括血压，体重指数，心率变异性，脉搏，呼吸频率，皮肤年龄等健康信息同时，还能提供糖尿病，心血管疾病，中风，
             高血压，脂肪肝等风险评估，以及精神压力和抑郁风险评估。
           </p>
         </div>
-        <div class="mt-4 md:mt-1 flex-auto">
-          <img class="w-full md:min-w-[560px]" src="/images/product-biometrics.png" alt="">
+        <div class="mt-4 xl:mt-1 flex-auto">
+          <img class="w-full xl:min-w-[560px]" src="/images/product-biometrics.png" alt="">
         </div>
       </div>
     </section>
     <!--  特点介绍  -->
-    <section class="-mt-20 md:-mt-40 z-0 features-container">
+    <section class="-mt-20 xl:-mt-40 z-0 features-container">
       <!--   滚动文字  -->
-      <div class="mt-10 md:mt-20">
+      <div class="mt-10 xl:mt-20">
         <ScrollText content="PRODUCT  INTRODUCTION" :speed="60" />
       </div>
-      <div class="flex flex-wrap justify-center gap-4 pt-4 pb-8 px-4 md:px-[6%]">
+      <div class="flex flex-wrap justify-center gap-4 pt-4 pb-8 px-4 xl:px-[6%]">
         <div v-for="item in featureList" :key="item.title"
-          class="w-full sm:w-[48%] md:w-[24%] bg-[#ffffffcc] rounded-lg px-4 pt-5 pb-2">
+          class="w-full sm:w-[48%] xl:w-[24%] bg-[#ffffffcc] rounded-lg px-4 pt-5 pb-2">
           <div class="size-10">
             <img :src="item.url" :alt="item.title">
           </div>
-          <div class="font-semibold text-lg md:text-xl text-[#2B9B81] pt-3.5 pb-2">
+          <div class="font-semibold text-lg xl:text-xl text-[#2B9B81] pt-3.5 pb-2">
             {{ item.title }}
           </div>
           <div class="text-[#323232] overflow-hidden text-ellipsis">
@@ -78,11 +78,11 @@ const featureList = [{
       </div>
     </section>
     <!--  产品一览  -->
-    <section class="px-4 md:px-32 pt-10 pb-28 bg-[#F9FAFB]">
-      <h2 class="font-semibold text-3xl md:text-4xl text-[#323232] text-center">
+    <section class="px-4 xl:px-32 pt-10 pb-28 bg-[#F9FAFB]">
+      <h2 class="font-semibold text-3xl xl:text-4xl text-[#323232] text-center">
         产品一览
       </h2>
-      <div class="relative flex flex-wrap justify-center gap-4 md:gap-8">
+      <div class="relative flex flex-wrap justify-center gap-4 xl:gap-8">
         <div class="product-content w-full sm:w-[346px]">
           <div class="absolute top-[156px] left-[60px]"
             style="width: 226px;height: 20px;background: #7DD6BD;opacity: 0.67;filter: blur(15.839799880981445px);">

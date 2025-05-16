@@ -7,51 +7,39 @@
     <!--  首页视频  -->
     <div class="relative">
       <!-- 跑马灯 -->
-      <section class="absolute top-0 md:top-[3%] w-full">
+      <section class="absolute top-0 xl:top-[3%] w-full">
         <ScrollText class="scroll-text text-font" content="MSPIRIT MSPIRIT MSPIRIT"
                     :speed="60"></ScrollText>
       </section>
       <!-- 简介 -->
-      <section class="absolute top-[15%] left-[5%] w-[50%] md:top-1/3 md:left-[10%] md:w-[30%]">
+      <section class="absolute top-[15%] left-[5%] w-[50%] xl:top-1/3 xl:left-[10%] xl:w-[30%]">
         <div>
           <img src="/images/home-main-text.png" alt="Mspirit" class="w-full">
         </div>
-        <p class="hidden md:block align-multiple-lines-of-text mt-6 text-[#1D1C1C] text-base md:text-lg">
-          健康指的是心理、社会、情感、身体和精神多方面的安康。
-          <br>
-          未来健康由数字化转型驱动，AI赋能，通过互通数据和安全
-          <br>
-          平台实现，为健康带来变革，Mspirit-中文产品名:镜灵，应
-          <br>
-          时而生。</p>
+        <p class="hidden xl:block align-multiple-lines-of-text mt-6 text-[#1D1C1C] text-base xl:text-lg">健康指的是心理、社会、情感、身体和精神多方面的安康。未来健康由数字化转型驱动，AI赋能，通过互通数据和安全平台实现，为健康带来变革，Mspirit-中文产品名:镜灵，应时而生。</p>
       </section>
       <!-- 特点 -->
-      <section class="absolute bottom-[15%] right-[5%] w-[50%] md:top-2/3 md:right-[15%] md:w-[30%]">
+      <section class="absolute bottom-[15%] right-[5%] w-[50%] xl:top-2/3 xl:right-[15%] xl:w-[30%]">
         <div>
           <img src="/images/home-main-text-2.png" alt="科技创造美好生活 实现未来健康" class="w-full">
         </div>
       </section>
-      <video class="hidden md:block md:w-full" autoplay poster="/images/heart-home-bg.png" muted loop
+      <video class="hidden xl:block xl:w-full" autoplay poster="/images/heart-home-bg.png" muted loop
              src="/images/heart.mp4"></video>
-      <video class="block md:hidden w-full" autoplay poster="/images/heart-home-m.png" muted loop
+      <video class="block xl:hidden w-full" autoplay poster="/images/heart-home-m.png" muted loop
              src="/images/heart-m.mp4"></video>
     </div>
-    <div class="block px-2 md:hidden">
-      <p class="align-multiple-lines-of-text text-[#1D1C1C] text-base md:text-lg">健康指的是心理、社会、情感、身体和精神多方面的安康。未来健康由数字化转型驱动，AI赋能，通过互通数据和安全平台实现，为健康带来变革，Mspirit-中文产品名：镜灵，应时而生。</p>
+    <div class="block px-2 xl:hidden">
+      <p class="align-multiple-lines-of-text text-[#1D1C1C] text-base xl:text-lg">健康指的是心理、社会、情感、身体和精神多方面的安康。未来健康由数字化转型驱动，AI赋能，通过互通数据和安全平台实现，为健康带来变革，Mspirit-中文产品名：镜灵，应时而生。</p>
     </div>
     <!--  技术实现  -->
-    <section class="flex flex-col md:flex-row items-center justify-around px-4 md:px-32 mb-12 bg-[#FDFEFF]">
-      <div class="w-full md:w-3/5">
+    <section class="flex flex-col xl:flex-row items-center justify-around px-4 xl:px-32 mb-12 bg-[#FDFEFF]">
+      <div class="w-full xl:w-3/5">
         <img class="w-full" src="/images/home-teco.png" alt="teco">
       </div>
-      <div class="text-[#323232] mt-8 md:mt-0">
-        <div class="font-semibold text-2xl md:text-4xl">核心技术</div>
-        <div class="mt-4 mb-10 align-multiple-lines-of-text text-sm md:text-base">核心技术（TOI）（ Transdermal Optical
-          Imaging
-          <br>Technology）是TOI技术利用了一些先进的光电容积描记
-          <br>法（PPG）技术，通过分析面部视频中的血流信号来预测
-          <br>健康数据（如血压）。简单来说，TOI的工作原理可以分为
-          <br>以下几个关键步骤：
+      <div class="text-[#323232] mt-8 xl:w-[414px] xl:mt-0">
+        <div class="font-semibold text-2xl xl:text-4xl">核心技术</div>
+        <div class="mt-4 mb-10 align-multiple-lines-of-text text-sm xl:text-base">核心技术（TOI）（ Transdermal Optical Imaging Technology）是TOI技术利用了一些先进的光电容积描记 法（PPG）技术，通过分析面部视频中的血流信号来预测 健康数据（如血压）。简单来说，TOI的工作原理可以分为 以下几个关键步骤：
         </div>
         <NuxtLink to="/teco">
           <button class="button bg-[#14293B]">了解更多</button>
@@ -59,12 +47,12 @@
       </div>
     </section>
     <!--  产品一览  -->
-    <section class="px-4 md:px-32 pt-10 pb-28"
+    <section class="px-4 xl:px-32 pt-10 pb-28"
              style="background: linear-gradient( 180deg, #FFFFFF 0%, #9FE7D4 57%, #7BDEFC 100%);">
-      <h2 class="font-semibold text-2xl md:text-4xl text-[#323232] text-center">
+      <h2 class="font-semibold text-2xl xl:text-4xl text-[#323232] text-center">
         产品一览
       </h2>
-      <div class="relative flex flex-wrap justify-center gap-4 md:gap-8">
+      <div class="relative flex flex-wrap justify-center gap-4 xl:gap-8">
         <div class="product-content">
           <div class="absolute top-[40%] left-[15%] w-[65%] h-[5%] bg-[#7DD6BD] opacity-67 blur-[15px]"></div>
           <div class="w-[40%] absolute inset-x-0 top-[-20%] left-[30%]">
