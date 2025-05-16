@@ -205,9 +205,7 @@ onBeforeRouteUpdate((to) => {
           <div class="flex-1 border-r-gray-400 border-r pr-4 xl:pr-8">
             <h2 class="text-2xl xl:text-3xl font-bold mb-1">NTT Data</h2>
             <div class="w-12 xl:w-16 h-2 bg-[#39D1AA] mb-4"></div>
-            <p class="text-gray-700 text-sm xl:text-base leading-relaxed align-multiple-lines-of-text">
-              在西班牙，第二大医疗保险公司Sanitas合作，推动数字健康领域的创新。2020年10月5日，Sanitas推出了BluaU应用程序。该应用允许用户通过30秒的视频自拍，测量心率、呼吸频率和血压等生命体征。测量结果可与医疗专业人员共享，辅助其评估和决策。此外，用户可通过BluaU的在线视频咨询服务，直接与Sanitas网络中的超过3,000名、涵盖35个专业领域的医疗行业专业人员联系。
-            </p>
+            <p class="text-gray-700 text-sm xl:text-base leading-relaxed align-multiple-lines-of-text">在西班牙，第二大医疗保险公司Sanitas合作，推动数字健康领域的创新。2020年10月5日，Sanitas推出了BluaU应用程序。该应用允许用户通过30秒的视频自拍，测量心率、呼吸频率和血压等生命体征。测量结果可与医疗专业人员共享，辅助其评估和决策。此外，用户可通过BluaU的在线视频咨询服务，直接与Sanitas网络中的超过3,000名、涵盖35个专业领域的医疗行业专业人员联系。</p>
           </div>
           <!-- 右侧图片 -->
           <div class="flex-shrink-0 flex items-center justify-center w-full xl:w-48">
@@ -224,9 +222,7 @@ onBeforeRouteUpdate((to) => {
           <div class="flex-1 border-l-gray-400 border-l pl-4 xl:pl-8">
             <h2 class="text-2xl xl:text-3xl font-bold mb-1">Sanitas</h2>
             <div class="w-12 xl:w-16 h-2 bg-[#39D1AA] mb-4"></div>
-            <p class="text-gray-700 text-sm xl:text-base leading-relaxed align-multiple-lines-of-text">
-              在西班牙，第二大医疗保险公司Sanitas合作，推动数字健康领域的创新。2020年10月5日，Sanitas推出了BluaU应用程序。该应用允许用户通过30秒的视频自拍，测量心率、呼吸频率和血压等生命体征。测量结果可与医疗专业人员共享，辅助其评估和决策。此外，用户可通过BluaU的在线视频咨询服务，直接与Sanitas网络中的超过3,000名、涵盖35个专业领域的医疗行业专业人员联系。
-            </p>
+            <p class="text-gray-700 text-sm xl:text-base leading-relaxed align-multiple-lines-of-text">在西班牙，第二大医疗保险公司Sanitas合作，推动数字健康领域的创新。2020年10月5日，Sanitas推出了BluaU应用程序。该应用允许用户通过30秒的视频自拍，测量心率、呼吸频率和血压等生命体征。测量结果可与医疗专业人员共享，辅助其评估和决策。此外，用户可通过BluaU的在线视频咨询服务，直接与Sanitas网络中的超过3,000名、涵盖35个专业领域的医疗行业专业人员联系。</p>
           </div>
         </div>
       </div>

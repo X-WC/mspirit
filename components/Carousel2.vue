@@ -31,7 +31,7 @@ const props = defineProps({
       }"
   >
     <SwiperSlide v-for="(item, index) in props.items" :key="index" class="flex items-center justify-center">
-      <img :src="item" alt="" class="w-full h-auto object-contain max-h-[350px] xl:max-h-[432px] xl:max-w-[454px]">
+      <img draggable="false" :src="item" alt="" class="w-full h-auto object-contain max-h-[350px] xl:max-h-[432px] xl:max-w-[454px]">
     </SwiperSlide>
   </Swiper>
   <!-- Pagination -->
@@ -48,6 +48,12 @@ const props = defineProps({
   :deep(.swiper) {
     min-height: 500px;
   }
+}
+
+:deep(.swiper-slide img) {
+  user-select: none;
+  -webkit-user-drag: none;
+  pointer-events: none;
 }
 
 :deep(.swiper-pagination-bullet) {

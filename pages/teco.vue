@@ -80,8 +80,7 @@ onBeforeRouteUpdate((to) => {
           </div>
           <span class="text-[#323232] text-xl xl:text-2xl font-medium p-1"
                 style="background:linear-gradient( 180deg, #FFFFFF 0%, #89E2CA 100%);">分析面部视频中的血流信号</span>
-          <p class="align-multiple-lines-of-text mt-3">
-            TOI技术首先通过智能手机录制用户的面部视频。视频中的每一帧图像会被分解成三个颜色通道（红色、绿色、蓝色），每个颜色通道都被细分为多个"位平面"——这些位平面是用来捕捉和处理面部的微小血流变化。 </p>
+          <p class="align-multiple-lines-of-text mt-3">TOI技术首先通过智能手机录制用户的面部视频。视频中的每一帧图像会被分解成三个颜色通道（红色、绿色、蓝色），每个颜色通道都被细分为多个"位平面"——这些位平面是用来捕捉和处理面部的微小血流变化。 </p>
         </div>
         <div class="flex-1/2 w-full xl:w-auto">
           <img src="/images/teco-main-1.png" alt="" class="w-full h-full object-contain">
@@ -99,8 +98,7 @@ onBeforeRouteUpdate((to) => {
           </div>
           <span class="text-[#323232] text-xl xl:text-2xl font-medium p-1"
                 style="background:linear-gradient( 180deg, #FFFFFF 0%, #89E2CA 100%);">提取血液信号</span>
-          <p class="align-multiple-lines-of-text mt-3">
-            在处理这些图像时，TOI技术专注于提取富含血红蛋白的信号，这是因为血红蛋白会随着血流变化而改变颜色（例如，随着心脏跳动，血液在血管中的流动会产生微小的颜色变化）。同时，TOI技术丢弃了与肤色相关的信号（如富含黑色素的信号），以减少噪音的干扰。</p>
+          <p class="align-multiple-lines-of-text mt-3">在处理这些图像时，TOI技术专注于提取富含血红蛋白的信号，这是因为血红蛋白会随着血流变化而改变颜色（例如，随着心脏跳动，血液在血管中的流动会产生微小的颜色变化）。同时，TOI技术丢弃了与肤色相关的信号（如富含黑色素的信号），以减少噪音的干扰。</p>
         </div>
       </div>
       <div class="flex flex-col xl:flex-row justify-around items-center px-4 xl:px-32 gap-6 xl:gap-10 py-8 xl:py-0"
@@ -111,8 +109,7 @@ onBeforeRouteUpdate((to) => {
           </div>
           <span class="text-[#323232] text-xl xl:text-2xl font-medium p-1"
                 style="background:linear-gradient( 180deg, #FFFFFF 0%, #89E2CA 100%);">信号合成与生成血流图像</span>
-          <p class="align-multiple-lines-of-text mt-3">
-            从每一帧视频的多个位平面中提取到的血红蛋白信号会被重新组合，形成一个"血红蛋白浓度图"，这个图显示了面部不同部位的血液流动变化。然后，所有这些图像按照视频的时间顺序串联起来，生成一个动态视频，展示整个面部的血流振荡情况。</p>
+          <p class="align-multiple-lines-of-text mt-3">从每一帧视频的多个位平面中提取到的血红蛋白信号会被重新组合，形成一个"血红蛋白浓度图"，这个图显示了面部不同部位的血液流动变化。然后，所有这些图像按照视频的时间顺序串联起来，生成一个动态视频，展示整个面部的血流振荡情况。</p>
         </div>
         <div class="flex-1/2 w-full xl:w-auto">
           <img src="/images/teco-main-3.png" alt="" class="w-full h-full object-contain">
@@ -130,8 +127,7 @@ onBeforeRouteUpdate((to) => {
           </div>
           <span class="text-[#323232] text-xl xl:text-2xl font-medium p-1"
                 style="background:linear-gradient( 180deg, #FFFFFF 0%, #89E2CA 100%);">高效、精准的信号提取</span>
-          <p class="align-multiple-lines-of-text mt-3">
-            通过这种独特的处理方法，TOI技术能够提取出强劲的血流信号，同时最小化背景噪音和肤色变化的干扰。由于该方法能精确地识别和分析面部的血流变化，它能够提供高质量、低噪声的健康数据。</p>
+          <p class="align-multiple-lines-of-text mt-3">通过这种独特的处理方法，TOI技术能够提取出强劲的血流信号，同时最小化背景噪音和肤色变化的干扰。由于该方法能精确地识别和分析面部的血流变化，它能够提供高质量、低噪声的健康数据。</p>
         </div>
       </div>
     </template>

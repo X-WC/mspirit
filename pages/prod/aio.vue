@@ -22,7 +22,7 @@ const items = [
           <div class="text-[#2B9B81] font-semibold text-lg xl:text-xl mb-2">
             超清镜面显示，还原真实动作细节
           </div>
-          <div>
+          <div class="line-height:32px">
             <div class="text-[#323232] text-sm xl:text-base"><span class="text-black font-semibold">镜面屏技术：</span>搭载MV215FHB-N30显示面板，亮度高达1000cd/m²(镜面屏版本)，强光环境下画面依旧清晰。
             </div>
             <div class="text-[#323232] text-sm xl:text-base"><span class="text-black font-semibold">4K级画质：</span>1920x1080全高清分辨率，支持16:9显示比例，动态课程无拖影(响应时间14ms)。
@@ -36,7 +36,7 @@ const items = [
           <div class="text-[#2B9B81] font-semibold text-lg md:text-xl mb-2">
             产品优势
           </div>
-          <div>
+          <div class="line-height:32px">
             <div class="text-[#323232] text-sm md:text-base"><span class="text-black font-semibold">全天候稳定运行：</span>宽温工作范围（0-50°C），IP65防护等级机身，防尘防泼溅。
             </div>
             <div class="text-[#323232] text-sm md:text-base"><span class="text-black font-semibold">安全认证：</span>通过国家3C认证，防爆屏设计，儿童与宠物家庭可安心使用。

@@ -44,8 +44,7 @@ const featureList = [{
         <div class="flex-1/2">
           <h1 class="font-semibold text-3xl xl:text-5xl m-0">PRODUCT INTRODUCTION</h1>
           <h2 class="font-semibold text-2xl xl:text-4xl m-0">产品介绍</h2>
-          <p class="mt-8 xl:mt-16 h-auto md:min-h-[185px] md:overflow-hidden xl:h-44 align-multiple-lines-of-text">
-            Mspirit（中文产品名：镜灵）是一款采用面部识别技术和AI算法"运用NuraLogix
+          <p class="mt-8 xl:mt-16 h-auto md:min-h-[185px] md:overflow-hidden xl:h-44 align-multiple-lines-of-text">Mspirit（中文产品名：镜灵）是一款采用面部识别技术和AI算法"运用NuraLogix
             技术"的健康管理产品，旨在通过简单、无接触、无创的方式帮助用户监控健康状况。仅需30秒，"镜灵"利用透皮光学成像技术检测面部和监测血流。AI
             算法结合这些数据提供可多大100多个健康参数。"镜灵"在提供包括血压，体重指数，心率变异性，脉搏，呼吸频率，皮肤年龄等健康信息同时，还能提供糖尿病，心血管疾病，中风，
             高血压，脂肪肝等风险评估，以及精神压力和抑郁风险评估。

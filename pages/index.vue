@@ -8,7 +8,7 @@
     <div class="relative">
       <!-- 跑马灯 -->
       <section class="absolute top-0 xl:top-[3%] w-full">
-        <ScrollText class="scroll-text text-font" content="MSPIRIT MSPIRIT MSPIRIT"
+        <ScrollText class="scroll-text text-font" content="MSPIRIT MSPIRIT MSPIRIT MSPIRIT"
                     :speed="60"></ScrollText>
       </section>
       <!-- 简介 -->
@@ -16,7 +16,7 @@
         <div>
           <img src="/images/home-main-text.png" alt="Mspirit" class="w-full">
         </div>
-        <p class="hidden xl:block align-multiple-lines-of-text mt-6 text-[#1D1C1C] text-base xl:text-lg">健康指的是心理、社会、情感、身体和精神多方面的安康。未来健康由数字化转型驱动，AI赋能，通过互通数据和安全平台实现，为健康带来变革，Mspirit-中文产品名:镜灵，应时而生。</p>
+        <p class="hidden max-w-[450px] xl:block align-multiple-lines-of-text mt-6 text-[#1D1C1C] text-base xl:text-lg">健康指的是心理、社会、情感、身体和精神多方面的安康。未来健康由数字化转型驱动，AI赋能，通过互通数据和安全平台实现，为健康带来变革，Mspirit-中文产品名：镜灵，应时而生。</p>
       </section>
       <!-- 特点 -->
       <section class="absolute bottom-[15%] right-[5%] w-[50%] xl:top-2/3 xl:right-[15%] xl:w-[30%]">
@@ -39,7 +39,7 @@
       </div>
       <div class="text-[#323232] mt-8 xl:w-[414px] xl:mt-0">
         <div class="font-semibold text-2xl xl:text-4xl">核心技术</div>
-        <div class="mt-4 mb-10 align-multiple-lines-of-text text-sm xl:text-base">核心技术（TOI）（ Transdermal Optical Imaging Technology）是TOI技术利用了一些先进的光电容积描记 法（PPG）技术，通过分析面部视频中的血流信号来预测 健康数据（如血压）。简单来说，TOI的工作原理可以分为 以下几个关键步骤：
+        <div class="mt-4 mb-10 align-multiple-lines-of-text text-sm xl:text-base">核心技术（TOI）（Transdermal Optical Imaging Technology）是TOI技术利用了一些先进的光电容积描记 法（PPG）技术，通过分析面部视频中的血流信号来预测 健康数据（如血压）。简单来说，TOI的工作原理可以分为以下几个关键步骤：
         </div>
         <NuxtLink to="/teco">
           <button class="button bg-[#14293B]">了解更多</button>
