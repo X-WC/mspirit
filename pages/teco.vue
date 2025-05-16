@@ -148,7 +148,7 @@ onBeforeRouteUpdate((to) => {
               <div :style="`background-image: url(${bgHealth1Url})`"
                    class="rounded-2xl p-4 shadow bg-no-repeat bg-cover bg-center">
                 <p class="font-bold text-[#2B4F81] mb-2">生命体征</p>
-                <ul class="text-sm text-[#333] leading-6">
+                <ul class="leading-[32px] text-sm text-[#333] leading-6">
                   <li>脉搏率</li>
                   <li>心率不齐计数</li>
                   <li>呼吸频率</li>
@@ -161,13 +161,13 @@ onBeforeRouteUpdate((to) => {
               <div :style="`background-image: url(${bgHealth2Url})`"
                    class="rounded-2xl p-4 shadow bg-no-repeat bg-cover bg-center">
                 <p class="font-bold text-[#2B4F81] mb-2">生理</p>
-                <ul class="text-sm text-[#333] leading-6">
+                <ul class="leading-[32px] text-sm text-[#333] leading-6">
                   <li>心率变异性</li>
                   <li>心脏负荷</li>
                   <li>血管容量</li>
                 </ul>
                 <p class="font-bold text-[#2B4F81] mt-4">精神</p>
-                <ul class="text-sm text-[#333] leading-6">
+                <ul class="leading-[32px] text-sm text-[#333] leading-6">
                   <li>精神压力了指数</li>
                 </ul>
               </div>
@@ -179,7 +179,7 @@ onBeforeRouteUpdate((to) => {
               <div :style="`background-image: url(${bgHealth3Url})`"
                    class="rounded-2xl p-4 shadow h-full bg-no-repeat bg-cover bg-center">
                 <p class="font-bold text-[#2B4F81] mb-2">身体</p>
-                <ul class="text-sm text-[#333] leading-6">
+                <ul class="leading-[32px] text-sm text-[#333] leading-6">
                   <li>体重指数</li>
                   <li>面部皮肤年龄</li>
                   <li>腰围和身高比</li>
@@ -204,7 +204,7 @@ onBeforeRouteUpdate((to) => {
                class="rounded-2xl p-4 shadow flex flex-col xl:flex-row gap-4 bg-no-repeat bg-cover bg-center">
             <div class="flex-1">
               <h4 class="font-bold text-[#104A7C] mb-2">代谢风险</h4>
-              <ul class="text-[#323232] space-y-1 text-sm">
+              <ul class="leading-[32px] text-[#323232] space-y-1 text-sm">
                 <li>高血压风险</li>
                 <li>2型糖尿病风险</li>
                 <li>高胆固醇血症风险</li>
@@ -217,21 +217,21 @@ onBeforeRouteUpdate((to) => {
 
           <!-- 下方小卡片 2x2 -->
           <div class="grid grid-cols-1 xl:grid-cols-2 gap-4 xl:gap-6">
-            <div style="min-height: 173px;"
+            <div style="height: 163px;"
                  :style="`background-image: url(${bgHealthR2Url})`"
                  class="rounded-2xl p-4 shadow bg-no-repeat bg-cover bg-center">
               <h4 class="font-bold text-[#104A7C] mb-2">血液生物指标物</h4>
-              <ul class="text-[#323232] space-y-1 text-sm">
+              <ul class="leading-[32px] text-[#323232] space-y-1 text-sm">
                 <li>糖化血红蛋白风险</li>
                 <li>空腹血糖风险</li>
               </ul>
             </div>
 
-            <div style="min-height: 173px;"
+            <div style="height: 163px;"
                  :style="`background-image: url(${bgHealthR3Url})`"
                  class="rounded-2xl p-4 shadow bg-no-repeat bg-cover bg-center">
               <h4 class="font-bold text-[#104A7C] mb-2">一般风险</h4>
-              <ul class="text-[#323232] space-y-1 text-sm">
+              <ul class="leading-[32px] text-[#323232] space-y-1 text-sm">
                 <li>心血管疾病风险</li>
                 <li>心脏病发作风险</li>
                 <li>中风风险</li>

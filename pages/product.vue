@@ -70,7 +70,7 @@ const featureList = [{
           <div class="font-semibold text-lg xl:text-xl text-[#2B9B81] pt-3.5 pb-2">
             {{ item.title }}
           </div>
-          <div class="text-[#323232] overflow-hidden text-ellipsis">
+          <div class="leading-[32px] text-[#323232] overflow-hidden text-ellipsis">
             {{ item.content }}
           </div>
         </div>
