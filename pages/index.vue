@@ -7,27 +7,33 @@
     <!--  首页视频  -->
     <div class="relative">
       <!-- 跑马灯 -->
-      <section class="absolute top-0 xl:top-[3%] w-full">
+      <section class="absolute top-0 xl:top-[3%] w-full z-10">
         <ScrollText class="scroll-text text-font" content="MSPIRIT MSPIRIT MSPIRIT MSPIRIT"
                     :speed="60"></ScrollText>
       </section>
       <!-- 简介 -->
-      <section class="absolute top-[15%] left-[5%] w-[50%] xl:top-1/3 xl:left-[10%] xl:w-[30%]">
+      <section class="absolute top-[15%] left-[5%] w-[50%] xl:top-1/3 xl:left-[6%] xl:w-[30%] z-10">
         <div>
           <img src="/images/home-main-text.png" alt="Mspirit" class="w-full">
         </div>
         <p class="hidden max-w-[450px] xl:block align-multiple-lines-of-text mt-6 text-[#1D1C1C] text-base xl:text-lg">健康指的是心理、社会、情感、身体和精神多方面的安康。未来健康由数字化转型驱动，AI赋能，通过互通数据和安全平台实现，为健康带来变革，Mspirit-中文产品名：镜灵，应时而生。</p>
       </section>
       <!-- 特点 -->
-      <section class="absolute bottom-[15%] right-[5%] w-[50%] xl:top-2/3 xl:right-[15%] xl:w-[30%]">
+      <section class="absolute bottom-[15%] right-[5%] w-[50%] xl:top-2/3 xl:right-[15%] xl:w-[30%] z-10">
         <div>
           <img src="/images/home-main-text-2.png" alt="科技创造美好生活 实现未来健康" class="w-full">
         </div>
       </section>
-      <video class="hidden xl:block xl:w-full" autoplay poster="/images/heart-home-bg.png" muted loop
-             src="/images/heart.mp4"></video>
-      <video class="block xl:hidden w-full" autoplay poster="/images/heart-home-m.png" muted loop
-             src="/images/heart-m.mp4"></video>
+      <div class="hidden xl:block w-full overflow-hidden pointer-events-none inset-0 z-0">
+        <video class="w-full transform scale-110 origin-center" autoplay poster="/images/heart-home-bg.png" muted loop>
+          <source src="/images/heart.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="block xl:hidden w-full overflow-hidden pointer-events-none inset-0 z-0">
+        <video class="w-full transform scale-110 origin-center" autoplay poster="/images/heart-home-m.png" muted loop>
+          <source src="/images/heart-m.mp4" type="video/mp4">
+        </video>
+      </div>
     </div>
     <div class="block px-2 xl:hidden">
       <p class="align-multiple-lines-of-text text-[#1D1C1C] text-base xl:text-lg">健康指的是心理、社会、情感、身体和精神多方面的安康。未来健康由数字化转型驱动，AI赋能，通过互通数据和安全平台实现，为健康带来变革，Mspirit-中文产品名：镜灵，应时而生。</p>
