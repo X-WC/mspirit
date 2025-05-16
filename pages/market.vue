@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import {getImageUrl} from '../utils/images'
-import { useRoute, onBeforeRouteUpdate } from 'vue-router'
+import {useRoute, onBeforeRouteUpdate} from 'vue-router'
+
 const tabs = [
   {title: '潜在行业介绍'},
   {title: '用户案例'},
@@ -103,7 +104,8 @@ onBeforeRouteUpdate((to) => {
           </div>
         </div>
       </div>
-      <section style="background: linear-gradient( 179deg, #9FE7D4 57%, #7BDEFC 100%);" class="pt-8 xl:pt-12 pb-3 px-4 xl:pl-32 xl:pr-4">
+      <section style="background: linear-gradient( 179deg, #9FE7D4 57%, #7BDEFC 100%);"
+               class="pt-8 xl:pt-12 pb-3 px-4 xl:pl-32 xl:pr-4">
         <div class="">
           <!-- 标题 -->
           <div class="mb-8 xl:mb-12">
@@ -200,12 +202,18 @@ onBeforeRouteUpdate((to) => {
     <template v-else-if="selected === 1">
       <div class="bg-[#F9FAFB] pt-8 xl:pt-12 pb-12 xl:pb-24 px-4 xl:px-36 flex flex-col gap-8 xl:gap-12">
         <!-- 卡片1 -->
-        <div class="bg-white rounded-2xl shadow-lg flex flex-col xl:flex-row items-center py-6 xl:py-11 px-4 xl:px-20 gap-6 xl:gap-8">
+        <div
+            class="bg-white rounded-2xl shadow-lg flex flex-col xl:flex-row items-center py-6 xl:py-11 px-4 xl:px-20 gap-6 xl:gap-8">
           <!-- 左侧内容 -->
           <div class="flex-1 border-r-gray-400 border-r pr-4 xl:pr-8">
             <h2 class="text-2xl xl:text-3xl font-bold mb-1">NTT Data</h2>
             <div class="w-12 xl:w-16 h-2 bg-[#39D1AA] mb-4"></div>
-            <p class="text-gray-700 text-sm xl:text-base leading-relaxed align-multiple-lines-of-text">在西班牙，第二大医疗保险公司Sanitas合作，推动数字健康领域的创新。2020年10月5日，Sanitas推出了BluaU应用程序。该应用允许用户通过30秒的视频自拍，测量心率、呼吸频率和血压等生命体征。测量结果可与医疗专业人员共享，辅助其评估和决策。此外，用户可通过BluaU的在线视频咨询服务，直接与Sanitas网络中的超过3,000名、涵盖35个专业领域的医疗行业专业人员联系。</p>
+            <p class="text-gray-700 text-sm xl:text-base leading-relaxed align-multiple-lines-of-text">NTT Health Data
+              Bank 生命体征测量服务使用安装在智能手机或平板电脑上的“生命体征测量应用程序”。该应用程序分析设备摄像头拍摄的
+              30秒面部视频数据，并计算血压、脉搏、压力水平和其他生命体征的估计值。无需特殊设备，仅使用智能手机或其他日常使用的设备即可测量心理和身体健康状况，这将扩大利用健康数据的计划的可能性。这些计划包括个人日常健康管理、公司员工压力护理以及使用和应用健康数据的业务。需要注意的是，该服务不是医疗设备，不适用于诊断、治疗或预防疾病等医疗目的。
+              个人日常健康管理：个人可以在其智能手机上下载生命体征测量应用程序，使用智能手机摄像头拍摄面部视频，以确定健康生命体征的估计值。用户可以使用应用程序中显示的生命体征测量值和图表来确定其健康状况并查看其健康历史。
+              公司员工压力护理：公司可以使用员工的生命体征测量值以及通过 Health Data Bank
+              数据库管理的其他信息（如压力检查和脉搏调查）来识别高压力个体。将这些信息与工作职责的变化和其他改进措施联系起来，可以让公司迅速找到并响应需要压力护理的员工。</p>
           </div>
           <!-- 右侧图片 -->
           <div class="flex-shrink-0 flex items-center justify-center w-full xl:w-48">
@@ -213,7 +221,8 @@ onBeforeRouteUpdate((to) => {
           </div>
         </div>
         <!-- 卡片2 -->
-        <div class="bg-white rounded-2xl shadow-lg flex flex-col xl:flex-row items-center py-6 xl:py-11 px-4 xl:px-20 gap-6 xl:gap-8">
+        <div
+            class="bg-white rounded-2xl shadow-lg flex flex-col xl:flex-row items-center py-6 xl:py-11 px-4 xl:px-20 gap-6 xl:gap-8">
           <!-- 左侧图片 -->
           <div class="flex-shrink-0 flex items-center justify-center w-full xl:w-48">
             <img src="/images/market-insight-2.png" alt="Sanitas" class="max-h-24 xl:max-h-32 object-contain"/>
@@ -222,7 +231,8 @@ onBeforeRouteUpdate((to) => {
           <div class="flex-1 border-l-gray-400 border-l pl-4 xl:pl-8">
             <h2 class="text-2xl xl:text-3xl font-bold mb-1">Sanitas</h2>
             <div class="w-12 xl:w-16 h-2 bg-[#39D1AA] mb-4"></div>
-            <p class="text-gray-700 text-sm xl:text-base leading-relaxed align-multiple-lines-of-text">在西班牙，第二大医疗保险公司Sanitas合作，推动数字健康领域的创新。2020年10月5日，Sanitas推出了BluaU应用程序。该应用允许用户通过30秒的视频自拍，测量心率、呼吸频率和血压等生命体征。测量结果可与医疗专业人员共享，辅助其评估和决策。此外，用户可通过BluaU的在线视频咨询服务，直接与Sanitas网络中的超过3,000名、涵盖35个专业领域的医疗行业专业人员联系。</p>
+            <p class="text-gray-700 text-sm xl:text-base leading-relaxed align-multiple-lines-of-text">
+              在西班牙，第二大医疗保险公司Sanitas合作，推动数字健康领域的创新。2020年10月5日，Sanitas推出了BluaU应用程序。该应用允许用户通过30秒的视频自拍，测量心率、呼吸频率和血压等生命体征。测量结果可与医疗专业人员共享，辅助其评估和决策。此外，用户可通过BluaU的在线视频咨询服务，直接与Sanitas网络中的超过3,000名、涵盖35个专业领域的医疗行业专业人员联系。</p>
           </div>
         </div>
       </div>
