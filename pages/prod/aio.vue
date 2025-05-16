@@ -23,11 +23,11 @@ const items = [
             超清镜面显示，还原真实动作细节
           </div>
           <div class="line-height:32px">
-            <div class="text-[#323232] text-sm xl:text-base"><span class="text-black font-semibold">镜面屏技术：</span>搭载MV215FHB-N30显示面板，亮度高达1000cd/m²(镜面屏版本)，强光环境下画面依旧清晰。
+            <div class="text-[#323232] text-sm leading-[32px]"><span class="text-black font-semibold">镜面屏技术：</span>搭载MV215FHB-N30显示面板，亮度高达1000cd/m²(镜面屏版本)，强光环境下画面依旧清晰。
             </div>
-            <div class="text-[#323232] text-sm xl:text-base"><span class="text-black font-semibold">4K级画质：</span>1920x1080全高清分辨率，支持16:9显示比例，动态课程无拖影(响应时间14ms)。
+            <div class="text-[#323232] text-sm leading-[32px]"><span class="text-black font-semibold">4K级画质：</span>1920x1080全高清分辨率，支持16:9显示比例，动态课程无拖影(响应时间14ms)。
             </div>
-            <div class="text-[#323232] text-sm xl:text-base"><span class="text-black font-semibold">广视角与防眩光：</span>178°可视角度，搭配Haze
+            <div class="text-[#323232] text-sm leading-[32px]"><span class="text-black font-semibold">广视角与防眩光：</span>178°可视角度，搭配Haze
               25%防眩光涂层与3H硬度表面，触控流畅且耐刮擦。
             </div>
           </div>
@@ -37,11 +37,11 @@ const items = [
             产品优势
           </div>
           <div class="line-height:32px">
-            <div class="text-[#323232] text-sm md:text-base"><span class="text-black font-semibold">全天候稳定运行：</span>宽温工作范围（0-50°C），IP65防护等级机身，防尘防泼溅。
+            <div class="text-[#323232] text-sm leading-[32px]"><span class="text-black font-semibold">全天候稳定运行：</span>宽温工作范围（0-50°C），IP65防护等级机身，防尘防泼溅。
             </div>
-            <div class="text-[#323232] text-sm md:text-base"><span class="text-black font-semibold">安全认证：</span>通过国家3C认证，防爆屏设计，儿童与宠物家庭可安心使用。
+            <div class="text-[#323232] text-sm leading-[32px]"><span class="text-black font-semibold">安全认证：</span>通过国家3C认证，防爆屏设计，儿童与宠物家庭可安心使用。
             </div>
-            <div class="text-[#323232] text-sm md:text-base"><span class="text-black font-semibold">极简安装：</span>壁挂/立式两用，3+2cm超薄机身，适配1m²空间。
+            <div class="text-[#323232] text-sm leading-[32px]"><span class="text-black font-semibold">极简安装：</span>壁挂/立式两用，3+2cm超薄机身，适配1m²空间。
             </div>
           </div>
         </div>
@@ -50,21 +50,21 @@ const items = [
             产品优势
           </div>
           <div>
-            <div class="text-[#323232] text-sm md:text-base"><span class="text-black font-semibold">非接触方式：</span>"镜灵"实现了全球首个非接触式的血压测量方式
+            <div class="text-[#323232] text-sm leading-[32px]"><span class="text-black font-semibold">非接触方式：</span>"镜灵"实现了全球首个非接触式的血压测量方式
             </div>
-            <div class="text-[#323232] text-sm md:text-base"><span class="text-black font-semibold">AI科技介入：</span>测量和风险预测并存
+            <div class="text-[#323232] text-sm leading-[32px]"><span class="text-black font-semibold">AI科技介入：</span>测量和风险预测并存
             </div>
-            <div class="text-[#323232] text-sm md:text-base"><span class="text-black font-semibold">极少耗时：</span>30°"秒脸部扫描获得多种健康指标，而在健康中心可能需要花费至少2个小时（7200秒）
+            <div class="text-[#323232] text-sm leading-[32px]"><span class="text-black font-semibold">极少耗时：</span>30°"秒脸部扫描获得多种健康指标，而在健康中心可能需要花费至少2个小时（7200秒）
             </div>
-            <div class="text-[#323232] text-sm md:text-base"><span class="text-black font-semibold">极低成本：</span>与高昂的身体健康检测费用相比，"镜灵"的价格极其低廉
+            <div class="text-[#323232] text-sm leading-[32px]"><span class="text-black font-semibold">极低成本：</span>与高昂的身体健康检测费用相比，"镜灵"的价格极其低廉
             </div>
-            <div class="text-[#323232] text-sm md:text-base"><span class="text-black font-semibold">多维度检测：</span>最多100项健康检测指标30秒内获得结果
+            <div class="text-[#323232] text-sm leading-[32px]"><span class="text-black font-semibold">多维度检测：</span>最多100项健康检测指标30秒内获得结果
             </div>
-            <div class="text-[#323232] text-sm md:text-base"><span class="text-black font-semibold">健康趋势追踪：</span>定制化报告监控健康趋势
+            <div class="text-[#323232] text-sm leading-[32px]"><span class="text-black font-semibold">健康趋势追踪：</span>定制化报告监控健康趋势
             </div>
-            <div class="text-[#323232] text-sm md:text-base"><span class="text-black font-semibold">数据安全：</span>架构数据安全体系，减少客户对隐私及数据泄露的风险
+            <div class="text-[#323232] text-sm leading-[32px]"><span class="text-black font-semibold">数据安全：</span>架构数据安全体系，减少客户对隐私及数据泄露的风险
             </div>
-            <div class="text-[#323232] text-sm md:text-base"><span class="text-black font-semibold">多场景应用：</span>在场景中提供员工和客户安全，健康，高效和便捷，增加归属和粘性，从而提高用户体验
+            <div class="text-[#323232] text-sm leading-[32px]"><span class="text-black font-semibold">多场景应用：</span>在场景中提供员工和客户安全，健康，高效和便捷，增加归属和粘性，从而提高用户体验
             </div>
           </div>
         </div>

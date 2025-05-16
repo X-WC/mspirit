@@ -98,7 +98,7 @@ onBeforeRouteUpdate((to) => {
             <div class="mt-4 w-full">
               <h3 class="text-xl xl:text-2xl font-bold text-[#323232] border-b border-b-[#D9D9D9]">{{ item.title }}</h3>
               <ul class="text-sm text-[#323232] mt-1 leading-relaxed space-y-1 h-24 columns-1 xl:columns-2 overflow-hidden whitespace-nowrap">
-                <li v-for="line in item.content" :key="line">{{ line }}</li>
+                <li class="leading-[32px]" v-for="line in item.content" :key="line">{{ line }}</li>
               </ul>
             </div>
           </div>

@@ -25,7 +25,7 @@
         </div>
         <p class="text-2xl leading-10 font-bold text-[#2E2E2E] mt-3">{{ item.number }}/</p>
         <h3 class="text-2xl leading-10 font-bold text-[#2E2E2E] mt-1">{{ item.title }}</h3>
-        <p class="text-[#323232] mt-2 leading-relaxed whitespace-pre-line">
+        <p class="leading-[32px] text-[#323232] mt-2 whitespace-pre-line">
           {{ item.desc }}
         </p>
       </SwiperSlide>
