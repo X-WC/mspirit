@@ -29,7 +29,7 @@ const bg2Url = getImageUrl('about-bg-2.png')
       <h1 class="font-medium text-2xl sm:text-3xl xl:text-4xl text-[#104A7C] leading-tight sm:leading-[2.5rem] xl:leading-[3.5rem] mb-4 sm:mb-6 xl:mb-8">
         "观健智能"是一家<br class="hidden sm:block">致力于人工智能健康领域的公司。
       </h1>
-      <p class="align-multiple-lines-of-text text-lg sm:text-xl text-[#14293B] leading-7 sm:leading-8">
+      <p class="text-lg sm:text-xl text-[#14293B] leading-7 sm:leading-8 align-multiple-lines-of-text">
         公司通过 App 和软件集成，实现平台互联互通，<br class="hidden sm:block">
         为客户提供全面的健康服务并推动技术方案的实际应用。
       </p>
@@ -61,7 +61,7 @@ const bg2Url = getImageUrl('about-bg-2.png')
         <img src="/images/about-2.png" alt="AI 技术图片" class="w-full xl:w-[402px] mb-4"/>
         <div>
           <h2 class="section-title">AI技术</h2>
-          <p class="align-multiple-lines-of-text section-text max-w-[460px]">"30秒扫描技术"是多位专家基于 AI 和大数据算法，耗时多年的研究成果。 该技术能够精准测量身体、心理、甚至亚临床疾病风险指标，并实现了全球首个非接触式的血压测量方式。
+          <p class="section-text max-w-[460px] align-multiple-lines-of-text">"30秒扫描技术"是多位专家基于 AI 和大数据算法，耗时多年的研究成果。 该技术能够精准测量身体、心理、甚至亚临床疾病风险指标，并实现了全球首个非接触式的血压测量方式。
           </p>
         </div>
       </div>
@@ -70,7 +70,7 @@ const bg2Url = getImageUrl('about-bg-2.png')
       <div class="flex flex-col xl:flex-row xl:justify-around items-center gap-8 xl:gap-16 mb-16 xl:mb-32">
         <div>
           <h2 class="section-title">公司愿景</h2>
-          <p class="align-multiple-lines-of-text section-text max-w-[460px]">为了推动人类未来健康事业的发展，这一成果将被推广至全球， "观健智能"将在中国引入 AI 健康技术，并计划通过与多个行业和企业的合作，构建多个应用场景，促使 AI 健康技术广泛融入日常生活和工作，从而惠及大众。</p>
+          <p class="section-text max-w-[460px] align-multiple-lines-of-text">为了推动人类未来健康事业的发展，这一成果将被推广至全球， "观健智能"将在中国引入 AI 健康技术，并计划通过与多个行业和企业的合作，构建多个应用场景，促使 AI 健康技术广泛融入日常生活和工作，从而惠及大众。</p>
         </div>
         <img src="/images/about-3.png" alt="公司愿景图" class="w-full md:w-[405px] mb-4"/>
       </div>
@@ -97,6 +97,6 @@ const bg2Url = getImageUrl('about-bg-2.png')
 }
 
 .section-text {
-  @apply text-sm sm:text-base text-[#14293B];
+  @apply text-sm text-[#14293B] leading-[32px];
 }
 </style>
