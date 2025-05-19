@@ -6,7 +6,6 @@ const items = [
   getImageUrl('aio-4.png'),
   getImageUrl('aio-1.png'),
   getImageUrl('aio-2.png'),
-  getImageUrl('aio-3.png'),
 ]
 </script>
 

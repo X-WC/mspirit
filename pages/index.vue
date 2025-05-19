@@ -9,7 +9,7 @@
       <!-- 跑马灯 -->
       <section class="absolute top-0 xl:top-[3%] w-full z-10">
         <ScrollText class="scroll-text text-font" content="MSPIRIT MSPIRIT MSPIRIT MSPIRIT"
-                    :speed="60"></ScrollText>
+                    :speed="0"></ScrollText>
       </section>
       <!-- 简介 -->
       <section class="absolute top-[15%] left-[5%] w-[50%] xl:top-1/3 xl:left-[6%] xl:w-[30%] z-10">

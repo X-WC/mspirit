@@ -71,7 +71,7 @@ const advantages = [
     icon: getImageUrl('market-advantage-3.png'),
     number: '03',
     title: '操作简单易用',
-    desc: `操作简单易用，30 秒内，提供结果，数据处理效率远超同类`
+    desc: `操作简单易用，30 秒内，提供结果，数据处理效率远超同类产品`
   },
   {
     index: 4,

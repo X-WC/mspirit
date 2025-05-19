@@ -168,7 +168,7 @@ onBeforeRouteUpdate((to) => {
                 </ul>
                 <p class="font-bold text-[#2B4F81] mt-4">精神</p>
                 <ul class="leading-[32px] text-sm text-[#333] leading-6">
-                  <li>精神压力了指数</li>
+                  <li>精神压力指数</li>
                 </ul>
               </div>
             </div>

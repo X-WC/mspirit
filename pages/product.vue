@@ -59,7 +59,7 @@ const featureList = [{
     <section class="-mt-20 xl:-mt-40 z-0 features-container">
       <!--   滚动文字  -->
       <div class="mt-10 xl:mt-20">
-        <ScrollText content="PRODUCT  INTRODUCTION" :speed="60" />
+        <ScrollText content="PRODUCT  INTRODUCTION" :speed="0" />
       </div>
       <div class="flex flex-wrap justify-center gap-4 pt-4 pb-8 px-4 xl:px-[6%]">
         <div v-for="item in featureList" :key="item.title"
