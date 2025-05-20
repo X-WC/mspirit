@@ -7,10 +7,10 @@ const items = [
 </script>
 
 <template>
-  <div class="prod-container mt-10 px-4 xl:px-20 flex flex-col xl:flex-row">
+  <div class="prod-container px-4 xl:px-32 flex flex-col xl:flex-row">
     <section class="flex-1/2">
-      <h1 class="font-semibold text-3xl xl:text-5xl m-0">Customized Service</h1>
-      <h2 class="font-semibold text-2xl xl:text-4xl m-0 mb-4 md:mb-8">定制化服务</h2>
+      <h1 class="font-semibold text-3xl xl:text-5xl m-0">Scenario Solution</h1>
+      <h2 class="font-semibold text-2xl xl:text-4xl m-0 mb-4 md:mb-8">场景解决方案</h2>
       <div class="h-[300px] md:h-[424px] pb-9 overflow-scroll hide-scrollbar">
         <div class="bg-white rounded-xl px-3 py-3">
           <div class="text-[#2B9B81] font-semibold text-lg md:text-xl mb-2">

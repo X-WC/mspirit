@@ -10,7 +10,7 @@ const items = [
 </script>
 
 <template>
-  <div class="prod-container mt-10 px-4 xl:px-20 flex flex-col xl:flex-row xl:gap-6">
+  <div class="prod-container px-4 xl:px-32 flex flex-col xl:flex-row xl:gap-6">
     <section class="flex-1/2">
       <h1 class="font-semibold text-3xl xl:text-5xl m-0">MSIPIRIT AIO</h1>
       <h2 class="font-semibold text-2xl xl:text-4xl m-0">AIO 一体机</h2>

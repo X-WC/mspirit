@@ -16,7 +16,7 @@ const bg2Url = getImageUrl('about-bg-2.png')
 <template>
   <div class="bg-[#F9FAFB]">
     <!-- 顶部标题区域 -->
-    <section class="px-5 sm:px-10 xl:px-16 xl:px-28 pt-10 pb-14 bg-no-repeat bg-cover bg-center"
+    <section class="px-5 sm:px-10 xl:px-16 xl:px-32 pt-10 pb-14 bg-no-repeat bg-cover bg-center"
              :style="`background-image: url(${bg1Url})`">
       <h1 class="font-semibold text-3xl sm:text-4xl xl:text-5xl m-0">ABOUT COMPANY</h1>
       <h2 class="font-semibold text-2xl sm:text-3xl xl:text-4xl m-0">公司简介</h2>
@@ -24,7 +24,7 @@ const bg2Url = getImageUrl('about-bg-2.png')
 
     <!-- 简介部分 -->
     <section
-        class="bg-no-repeat bg-cover bg-center pt-12 sm:pt-16 xl:pt-20 xl:pt-24 px-5 sm:px-10 xl:px-16 xl:px-32 min-h-[400px] sm:min-h-[500px] xl:min-h-[573px]"
+        class="bg-no-repeat bg-cover bg-center pt-12 xl:pt-20 xl:pt-24 px-5 sm:px-10 xl:px-32 min-h-[400px] sm:min-h-[500px] xl:min-h-[573px]"
         :style="`background-image: url(${bg2Url})`">
       <h1 class="font-medium text-2xl sm:text-3xl xl:text-4xl text-[#104A7C] leading-tight sm:leading-[2.5rem] xl:leading-[3.5rem] mb-4 sm:mb-6 xl:mb-8">
         "观健智能"是一家<br class="hidden sm:block">致力于人工智能健康领域的公司。
@@ -55,7 +55,7 @@ const bg2Url = getImageUrl('about-bg-2.png')
     </section>
 
     <!-- 技术与愿景 -->
-    <section class="mx-5 sm:mx-10 xl:mx-16 xl:mx-40 px-4 sm:px-8 xl:px-16 xl:px-24 pt-8">
+    <section class="xl:px-32 px-4 sm:px-8 pt-8">
       <!-- AI技术 -->
       <div class="flex flex-col xl:flex-row xl:justify-around items-center gap-8 xl:gap-16 mb-16 xl:mb-24">
         <img src="/images/about-2.png" alt="AI 技术图片" class="w-full xl:w-[402px] mb-4"/>

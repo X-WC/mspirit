@@ -12,7 +12,7 @@ const items = [
 </script>
 
 <template>
-  <div class="prod-container mt-10 px-4 xl:px-20 py-10 xl:py-20 flex flex-col xl:flex-row xl:justify-around">
+  <div class="prod-container px-4 xl:px-32 py-10 xl:py-20 flex flex-col xl:flex-row xl:justify-between">
     <section class="flex-1/2">
       <h1 class="mt-4 xl:mt-10 font-semibold text-3xl xl:text-5xl m-0">MSIPIRIT Mobile App</h1>
       <h2 class="font-semibold text-2xl xl:text-4xl m-0">手机 App</h2>

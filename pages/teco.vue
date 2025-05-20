@@ -49,7 +49,7 @@ onBeforeRouteUpdate((to) => {
 
 <template>
   <div>
-    <div class="px-4 xl:pl-28 pt-6 xl:pt-10 pb-8 xl:pb-14 bg-no-repeat bg-cover bg-center"
+    <div class="px-4 xl:px-32 pt-6 xl:pt-10 pb-8 xl:pb-14 bg-no-repeat bg-cover bg-center"
          :style="`background-image: url(${bg1Url})`">
       <h1 class="font-semibold text-3xl xl:text-5xl m-0">TECHNOLOGY</h1>
       <h2 class="font-semibold text-2xl xl:text-4xl m-0">核心技术</h2>
@@ -67,8 +67,7 @@ onBeforeRouteUpdate((to) => {
         </div>
         <div class="flex-1">
           <div class="font-semibold text-4xl xl:text-6xl mb-4">技术细节</div>
-          <div class="align-multiple-lines-of-text w-full xl:w-4/5">核心技术（TOI）（ Transdermal Optical Imaging
-            Technology）是TOI技术利用了一些先进的光电容积描记法（PPG）技术，通过分析面部视频中的血流信号来预测健康数据（如血压）。简单来说，TOI的工作原理可以分为以下几个关键步骤：
+          <div class="align-multiple-lines-of-text w-full">核心技术（TOI）（Transdermal Optical Imaging Technology）是TOI技术利用了一些先进的光电容积描记法（PPG）技术，通过分析面部视频中的血流信号来预测健康数据（如血压）。简单来说，TOI的工作原理可以分为以下几个关键步骤：
           </div>
         </div>
       </div>

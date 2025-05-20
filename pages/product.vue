@@ -57,13 +57,9 @@ const featureList = [{
     </section>
     <!--  特点介绍  -->
     <section class="-mt-20 xl:-mt-40 z-0 features-container">
-      <!--   滚动文字  -->
-      <div class="mt-10 xl:mt-20">
-        <ScrollText content="PRODUCT  INTRODUCTION" :speed="0" />
-      </div>
-      <div class="flex flex-wrap justify-center gap-4 pt-4 pb-8 px-4 xl:px-[6%]">
+      <div class="flex flex-wrap justify-between pb-8 pt-[50px] px-4 xl:pt-[160px] xl:px-32">
         <div v-for="item in featureList" :key="item.title"
-          class="w-full sm:w-[48%] xl:w-[24%] bg-[#ffffffcc] rounded-lg px-4 pt-5 pb-2">
+          class="w-full sm:w-[48%] xl:w-[24%] bg-[#ffffffcc] rounded-lg px-4 pt-5 pb-2 mb-4">
           <div class="size-10">
             <img :src="item.url" :alt="item.title">
           </div>
@@ -111,10 +107,10 @@ const featureList = [{
             style="width: 226px;height: 20px;background: #7DD6BD;opacity: 0.67;filter: blur(15.839799880981445px);">
           </div>
           <div style="width: 272px;" class="absolute inset-x-0 top-[-71px] left-[37px]">
-            <img src="/images/product-solution.png" alt="定制化服务">
+            <img src="/images/product-solution.png" alt="场景解决方案">
           </div>
           <div class="product-name">
-            定制化服务
+            场景解决方案
           </div>
           <NuxtLink to="/prod/solution"><button class="button bg-[#39D1AA]">了解更多</button></NuxtLink>
         </div>

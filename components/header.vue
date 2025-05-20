@@ -55,8 +55,8 @@ const closeMobileMenu = () => {
 
 <template>
   <header>
-    <div class="flex justify-between items-center h-16 xl:px-32 xl:px-24 md:px-16 sm:px-5 py-3.5">
-      <NuxtLink class="px-2" to="/">
+    <div class="flex justify-between items-center h-16 xl:px-32 md:px-16 sm:px-5 py-3.5">
+      <NuxtLink to="/">
         <img class="w-36" src="/public/images/nav-logo.svg" alt="logo">
       </NuxtLink>
       <!-- 桌面端导航 -->

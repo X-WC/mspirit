@@ -68,7 +68,7 @@ onBeforeRouteUpdate((to) => {
 
 <template>
   <div>
-    <div class="px-4 xl:pl-28 pt-6 xl:pt-10 pb-8 xl:pb-14 bg-no-repeat bg-cover bg-center"
+    <div class="px-4 xl:px-32 pt-6 xl:pt-10 pb-8 xl:pb-14 bg-no-repeat bg-cover bg-center"
          :style="`background-image: url(${bg})`">
       <h1 class="font-semibold text-3xl xl:text-5xl m-0">MARKET INSIGHT</h1>
       <h2 class="font-semibold text-2xl xl:text-4xl m-0">行业洞察</h2>
@@ -105,7 +105,7 @@ onBeforeRouteUpdate((to) => {
         </div>
       </div>
       <section style="background: linear-gradient( 179deg, #9FE7D4 57%, #7BDEFC 100%);"
-               class="pt-8 xl:pt-12 pb-3 px-4 xl:pl-32 xl:pr-4">
+               class="pt-8 pb-3 px-4 xl:pl-32 xl:pr-4">
         <div class="">
           <!-- 标题 -->
           <div class="mb-8 xl:mb-12">
@@ -116,7 +116,7 @@ onBeforeRouteUpdate((to) => {
           <carousel/>
         </div>
       </section>
-      <section class="relative py-8 xl:py-12 px-4 xl:px-28">
+      <section class="relative py-8 xl:py-12 px-4 xl:px-32">
         <div class="bg-white flex flex-col">
           <!-- 标题 -->
           <div>
@@ -124,7 +124,7 @@ onBeforeRouteUpdate((to) => {
             <p class="text-[#D9D9D9] text-xl xl:text-2xl mt-2">Opportunity</p>
           </div>
           <!-- 圆形图片和描述 -->
-          <div class="flex flex-wrap xl:flex-row items-end justify-around gap-6 xl:gap-8 relative z-10 mt-6 xl:mt-0">
+          <div class="flex flex-wrap xl:flex-row items-end justify-between gap-6 xl:gap-8 relative z-10 mt-6 xl:mt-0">
             <!-- 圆1 -->
             <div class="flex flex-col items-center w-[50%] xl:w-[12%]">
               <div class="rounded-full overflow-hidden flex items-center justify-center">
@@ -200,7 +200,7 @@ onBeforeRouteUpdate((to) => {
     </template>
     <!-- 健康指标 -->
     <template v-else-if="selected === 1">
-      <div class="bg-[#F9FAFB] pt-8 xl:pt-12 pb-12 xl:pb-24 px-4 xl:px-36 flex flex-col gap-8 xl:gap-12">
+      <div class="bg-[#F9FAFB] pt-8 xl:pb-24 px-4 xl:px-32 flex flex-col gap-8 xl:gap-12">
         <!-- 卡片1 -->
         <div
             class="bg-white rounded-2xl shadow-lg flex flex-col xl:flex-row items-center py-6 xl:py-11 px-4 xl:px-20 gap-6 xl:gap-8">
