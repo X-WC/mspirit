@@ -20,18 +20,7 @@ defineProps<{
       <div class="p-2">
         <div class="flex justify-between items-center mb-6">
           <NuxtLink to="/" @click="onClose">
-            <NuxtImg
-              src="/public/images/nav-logo.svg"
-              alt="logo"
-              loading="lazy"
-              format="webp"
-              quality="80"
-              :modifiers="{
-                width: 144,
-                height: 40
-              }"
-              class="w-36"
-            />
+            <img class="w-36" src="/public/images/nav-logo.svg" alt="logo">
           </NuxtLink>
           <button class="p-2" @click="onClose">
             <div class="relative w-6 h-6">
