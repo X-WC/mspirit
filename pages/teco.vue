@@ -61,7 +61,7 @@ onBeforeRouteUpdate((to) => {
     <template v-if="selected === 0">
       <div style="min-height: 463px;"
            :style="`background-image: url(${bg2Url})`"
-           class="text-white flex flex-col xl:flex-row justify-around gap-6 xl:gap-12 px-4 xl:px-32 py-8 xl:py-0 items-center bg-no-repeat bg-cover bg-center">
+           class="text-white flex flex-col xl:flex-row justify-around gap-6 xl:gap-12 px-4 xl:px-32 xl:pr-36 py-8 xl:py-0 items-center bg-no-repeat bg-cover bg-center">
         <div class="w-full xl:w-auto xl:max-w-[400px] xl:max-w-[753px]">
           <img src="/images/teco-main-bg2.png" alt="" class="object-contain h-full w-full xl:w-[704px]"/>
         </div>
